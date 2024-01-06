@@ -1,10 +1,9 @@
-import Image from "next/image";
-import HomeLoginButton from "./components/HomeLoginButton";
+import { TickUpLandingPage } from "./components/LandingPageTikup";
 
 export default function Home() {
   return (
-    <main>
-      <HomeLoginButton />
-    </main>
+    <TickUpLandingPage />
+    // <main className="w-full h-screen">
+    // </main>
   );
 }
